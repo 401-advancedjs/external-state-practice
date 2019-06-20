@@ -14,8 +14,8 @@ export default class Form extends React.Component{
         <label>
           Name:
         </label>
-        <input type="text" onChange={ this.handleChange }></input>
-        <input type="submit" onClick={ this.props.handleCount }></input>
+        <input type="text" onChange={ this.handleChange } className="name"></input>
+        <input type="submit" onClick={ this.props.handleCount } className ="submitButton"></input>
       </form>
     );
   }
