@@ -6,19 +6,27 @@
 ### Author: Melissa
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advancedjs/external-state-practice/pull/2)
+* [submission PR](https://github.com/401-advancedjs/external-state-practice/pull/1)
 * [travis](https://www.travis-ci.com/401-advancedjs/external-state-practice)
 
+
+### Modules
+#### `app.js`
+#### `form.js`
 
 #### Running the app
 * `npm run start`
   
 #### Tests
-* How do you run tests?
+* How do you run tests? `npm run test`
 * What assertions were made?
-  * No assertions were made since there are no "components"
+  * Counter increments everytime a submit is clicked
+  * Name is being changed in the state
+  * basic rendering onto page
+  * Format follows snapshot
 * What assertions need to be / should be made?
   * Nothing at the moment
 
 #### UML
 ![external state UML](./external-state/src/uml.png)
+
